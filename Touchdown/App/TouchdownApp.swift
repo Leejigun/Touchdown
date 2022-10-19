@@ -11,7 +11,7 @@ import SwiftUI
 struct TouchdownApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            HomeView(store: .init(initialState: HomeState(), reducer: HomeReducer, environment: HomeEnvironment()))
         }
     }
 }
