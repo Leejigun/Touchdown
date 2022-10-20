@@ -11,6 +11,7 @@ import ComposableArchitecture
 struct HomeState: Equatable {
     var players: [Player] = []
     var categories: [Category] = []
+    var products: [Product] = []
 }
 
 // MARK: - Action
@@ -33,6 +34,7 @@ let HomeReducer = Reducer<HomeState, HomeAction, HomeEnvironment> { state, actio
     case .onAppear:
         state.players = environment.localJsonData.players()
         state.categories = environment.localJsonData.categories()
+        state.products = environment.localJsonData.products()
         return Effect.none
     }
 }

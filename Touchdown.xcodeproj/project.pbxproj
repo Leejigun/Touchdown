@@ -32,6 +32,10 @@
 		4B5CB68E2900454B0065CA8D /* HomeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB68D2900454B0065CA8D /* HomeState.swift */; };
 		4B5CB690290046AA0065CA8D /* FeatureItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB68F290046AA0065CA8D /* FeatureItemView.swift */; };
 		4B5CB6922900473A0065CA8D /* FeatureTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB6912900473A0065CA8D /* FeatureTabView.swift */; };
+		88FFE2072901A6680033F690 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FFE2062901A6680033F690 /* TitleView.swift */; };
+		88FFE2092901A7A40033F690 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FFE2082901A7A40033F690 /* Product.swift */; };
+		88FFE20B2901A8BD0033F690 /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FFE20A2901A8BD0033F690 /* ProductItemView.swift */; };
+		88FFE20D2901AAF20033F690 /* ProductGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FFE20C2901AAF20033F690 /* ProductGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +64,10 @@
 		4B5CB68D2900454B0065CA8D /* HomeState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeState.swift; sourceTree = "<group>"; };
 		4B5CB68F290046AA0065CA8D /* FeatureItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureItemView.swift; sourceTree = "<group>"; };
 		4B5CB6912900473A0065CA8D /* FeatureTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureTabView.swift; sourceTree = "<group>"; };
+		88FFE2062901A6680033F690 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		88FFE2082901A7A40033F690 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		88FFE20A2901A8BD0033F690 /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
+		88FFE20C2901AAF20033F690 /* ProductGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +181,9 @@
 				4B3AC27A29016A9F0028E443 /* CategoryItemView.swift */,
 				4B3AC27C29016D3C0028E443 /* CategoryGridView.swift */,
 				4B3AC27E29016F680028E443 /* SectionView.swift */,
+				88FFE2062901A6680033F690 /* TitleView.swift */,
+				88FFE20A2901A8BD0033F690 /* ProductItemView.swift */,
+				88FFE20C2901AAF20033F690 /* ProductGridView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -182,6 +193,7 @@
 			children = (
 				4B5CB685290042A70065CA8D /* Player.swift */,
 				4B3AC276290143E80028E443 /* Category.swift */,
+				88FFE2082901A7A40033F690 /* Product.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -286,16 +298,20 @@
 			files = (
 				4B5CB689290042FA0065CA8D /* CodableBundleExtension.swift in Sources */,
 				4B5CB6922900473A0065CA8D /* FeatureTabView.swift in Sources */,
+				88FFE20D2901AAF20033F690 /* ProductGridView.swift in Sources */,
 				4B5CB68129003A8B0065CA8D /* NavigationBar.swift in Sources */,
 				4B3AC27D29016D3C0028E443 /* CategoryGridView.swift in Sources */,
 				4B3AC27B29016A9F0028E443 /* CategoryItemView.swift in Sources */,
 				4B5CB68329003BA20065CA8D /* LogoView.swift in Sources */,
+				88FFE20B2901A8BD0033F690 /* ProductItemView.swift in Sources */,
 				4B5CB690290046AA0065CA8D /* FeatureItemView.swift in Sources */,
 				4B5CB65B290031690065CA8D /* HomeView.swift in Sources */,
 				4B5CB67E290038270065CA8D /* FooterView.swift in Sources */,
 				4B5CB68B290044380065CA8D /* LocalJsonData.swift in Sources */,
 				4B5CB68E2900454B0065CA8D /* HomeState.swift in Sources */,
+				88FFE2092901A7A40033F690 /* Product.swift in Sources */,
 				4B3AC277290143E80028E443 /* Category.swift in Sources */,
+				88FFE2072901A6680033F690 /* TitleView.swift in Sources */,
 				4B3AC27F29016F680028E443 /* SectionView.swift in Sources */,
 				4B5CB686290042A70065CA8D /* Player.swift in Sources */,
 				4B5CB67C290036F90065CA8D /* Style.swift in Sources */,

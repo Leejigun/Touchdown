@@ -11,6 +11,7 @@ struct LocalJsonData {
     enum FileName: String {
         case player
         case category
+        case product
     }
     
     func players() -> [Player] {
@@ -19,6 +20,10 @@ struct LocalJsonData {
     
     func categories() -> [Category] {
         return (try? Bundle.main.decode("\(FileName.category.rawValue).json")) ?? []
+    }
+    
+    func products() -> [Product] {
+        return (try? Bundle.main.decode("\(FileName.product.rawValue).json")) ?? []
     }
 }
   
