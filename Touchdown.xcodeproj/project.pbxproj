@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B3AC277290143E80028E443 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3AC276290143E80028E443 /* Category.swift */; };
+		4B3AC27B29016A9F0028E443 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3AC27A29016A9F0028E443 /* CategoryItemView.swift */; };
+		4B3AC27D29016D3C0028E443 /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3AC27C29016D3C0028E443 /* CategoryGridView.swift */; };
+		4B3AC27F29016F680028E443 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3AC27E29016F680028E443 /* SectionView.swift */; };
 		4B5CB659290031690065CA8D /* TouchdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB658290031690065CA8D /* TouchdownApp.swift */; };
 		4B5CB65B290031690065CA8D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB65A290031690065CA8D /* HomeView.swift */; };
 		4B5CB65D2900316B0065CA8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B5CB65C2900316B0065CA8D /* Assets.xcassets */; };
@@ -31,6 +35,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B3AC276290143E80028E443 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		4B3AC27A29016A9F0028E443 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		4B3AC27C29016D3C0028E443 /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
+		4B3AC27E29016F680028E443 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		4B5CB655290031690065CA8D /* Touchdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B5CB658290031690065CA8D /* TouchdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchdownApp.swift; sourceTree = "<group>"; };
 		4B5CB65A290031690065CA8D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -162,6 +170,9 @@
 				4B5CB68229003BA20065CA8D /* LogoView.swift */,
 				4B5CB68F290046AA0065CA8D /* FeatureItemView.swift */,
 				4B5CB6912900473A0065CA8D /* FeatureTabView.swift */,
+				4B3AC27A29016A9F0028E443 /* CategoryItemView.swift */,
+				4B3AC27C29016D3C0028E443 /* CategoryGridView.swift */,
+				4B3AC27E29016F680028E443 /* SectionView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -170,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				4B5CB685290042A70065CA8D /* Player.swift */,
+				4B3AC276290143E80028E443 /* Category.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -275,12 +287,16 @@
 				4B5CB689290042FA0065CA8D /* CodableBundleExtension.swift in Sources */,
 				4B5CB6922900473A0065CA8D /* FeatureTabView.swift in Sources */,
 				4B5CB68129003A8B0065CA8D /* NavigationBar.swift in Sources */,
+				4B3AC27D29016D3C0028E443 /* CategoryGridView.swift in Sources */,
+				4B3AC27B29016A9F0028E443 /* CategoryItemView.swift in Sources */,
 				4B5CB68329003BA20065CA8D /* LogoView.swift in Sources */,
 				4B5CB690290046AA0065CA8D /* FeatureItemView.swift in Sources */,
 				4B5CB65B290031690065CA8D /* HomeView.swift in Sources */,
 				4B5CB67E290038270065CA8D /* FooterView.swift in Sources */,
 				4B5CB68B290044380065CA8D /* LocalJsonData.swift in Sources */,
 				4B5CB68E2900454B0065CA8D /* HomeState.swift in Sources */,
+				4B3AC277290143E80028E443 /* Category.swift in Sources */,
+				4B3AC27F29016F680028E443 /* SectionView.swift in Sources */,
 				4B5CB686290042A70065CA8D /* Player.swift in Sources */,
 				4B5CB67C290036F90065CA8D /* Style.swift in Sources */,
 				4B5CB659290031690065CA8D /* TouchdownApp.swift in Sources */,

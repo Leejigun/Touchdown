@@ -36,7 +36,8 @@ struct HomeView: View {
                                 FeatureTabView(players: viewStore.players)
                                     .frame(width: geometryProxy.size.width, height: geometryProxy.size.width * 0.625)
                                 
-                                Spacer()
+                                CategoryGridView(categories: viewStore.categories)
+                                
                                 FooterView()
                                     .padding(.horizontal)
                             }
